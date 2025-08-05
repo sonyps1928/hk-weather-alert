@@ -23,7 +23,7 @@ async function sendSlackNotification(message) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      channel: 'YOURCHANNELID', // Replace with actual channel ID
+      channel: 'C099ELDUG3B', // Replace with actual channel ID
       text: `⚠️ Weather Warning: ${message}`
     }),
   });
